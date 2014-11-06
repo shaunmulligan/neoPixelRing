@@ -1,0 +1,24 @@
+{
+  "name": "neoPixelRing",
+  "version": "0.0.0",
+  "description": "module to set percentage or time on neopixel 60 led ring with fadecandy controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaunmulligan/neoPixelRing.git"
+  },
+  "keywords": [
+    "neopixel",
+    "ring",
+    "fadecandy"
+  ],
+  "author": "Shaun Mulligan <shaun@resin.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunmulligan/neoPixelRing/issues"
+  },
+  "homepage": "https://github.com/shaunmulligan/neoPixelRing"
+}
