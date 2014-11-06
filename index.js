@@ -21,6 +21,9 @@ module.exports = {
   },
 
   setPercentage: function(percent, color) {
+    if (percent > 100 || percent < 0) {
+      percent = 100;
+    }
     client.setPixel(0, 0, 0, 140);  //set blue ref LED
     var numberOfLeds = Math.round((percent/100)*60);
     for (var pixel = 1; pixel < numberOfLeds; pixel++)
